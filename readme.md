@@ -2,9 +2,8 @@
 
 ## Install and start
 
-gti clone ...
-
 ```
+git clone https://github.com/data-avail/docker-bee-tmpl.git
 npm install
 tsc -p src 
 ```  
