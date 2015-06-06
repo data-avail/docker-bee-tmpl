@@ -1,3 +1,4 @@
+/// <reference path="../typings/tsd.d.ts" />
 var pubSub = require("da-helpers").pubSub;
 var logger = require("da-helpers").logger;
 var tn = require("trader-net");
