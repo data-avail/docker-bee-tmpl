@@ -1,5 +1,5 @@
 {
-  "name": "generator-docker-bee-tmpl",
+  "name": "docker-bee-tmpl",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
