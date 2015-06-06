@@ -1,0 +1,17 @@
+{
+  "name": "generator-docker-bee-tmpl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "trader-net": "git://github.com/data-avail/trader-net.git",
+    "da-helpers": "git://github.com/data-avail/da-helpers.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "max.putilov@gmail.com",
+  "license": "ISC"
+}
