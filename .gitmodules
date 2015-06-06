@@ -1,0 +1,6 @@
+[submodule "trader-net"]
+	path = trader-net
+	url = git@github.com:baio/trader-net.git
+[submodule "da-helpers"]
+	path = da-helpers
+	url = git@github.com:data-avail/da-helpers.git
