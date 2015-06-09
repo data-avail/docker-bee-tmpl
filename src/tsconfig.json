@@ -6,7 +6,7 @@
     "declaration": false,
     "noImplicitAny": false,
     "removeComments": true,
-    "noLib": false,
+    "noLib": true,
     "emitDecoratorMetadata": true,
     "outDir": "../dist"
   }

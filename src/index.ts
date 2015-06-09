@@ -2,6 +2,7 @@
 var pubSub = require("da-helpers").pubSub;
 var logger = require("da-helpers").logger;
 var tn = require("trader-net");
+import handler = require(".handler")
 
 //get initialization parameters from env, docker env parameters have priority
 var rabbitUrl = process.env.RABBITMQ_PORT_5672_TCP_ADDR ? "amqp://#{process.env.RABBITMQ_PORT_5672_TCP_ADDR}:#{process.env.RABBITMQ_PORT_5672_TCP_PORT}" : process.env.RABBITMQ_URI;
@@ -34,8 +35,9 @@ function onExit(res) {
 
 function onHandle(cmd) {
     if (cmd.extit) onExit(cmd);
-    log.write({oper: "on_handle", status: "success", cmd: cmd});
+    log.write({oper: "handle", status: "start", cmd: cmd});
     //insert you handle logic here
+    handler.handle(null);
 }
 
 traderNet.connect(tnAuth).then(() => {
