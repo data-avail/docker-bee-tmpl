@@ -7,6 +7,9 @@
   "installed": {
     "node/node.d.ts": {
       "commit": "8c7444882a2bc2ab87387f8f736a7d97e89b9c90"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "066819c65ff561ca109955e0b725c253e243f0a2"
     }
   }
 }
